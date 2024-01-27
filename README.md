@@ -1,90 +1,73 @@
-[![ci](https://github.com/paperless-ngx/paperless-ngx/workflows/ci/badge.svg)](https://github.com/paperless-ngx/paperless-ngx/actions)
-[![Crowdin](https://badges.crowdin.net/paperless-ngx/localized.svg)](https://crowdin.com/project/paperless-ngx)
-[![Documentation Status](https://img.shields.io/github/deployments/paperless-ngx/paperless-ngx/github-pages?label=docs)](https://docs.paperless-ngx.com)
-[![codecov](https://codecov.io/gh/paperless-ngx/paperless-ngx/branch/main/graph/badge.svg?token=VK6OUPJ3TY)](https://codecov.io/gh/paperless-ngx/paperless-ngx)
-[![Chat on Matrix](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/%23paperlessngx%3Amatrix.org)
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/paperless-ngx/paperless-ngx/blob/main/resources/logo/web/png/White%20logo%20-%20no%20background.png" width="50%">
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a href="https://github.com/paperless-ngx/paperless-ngx/actions"><img src="https://github.com/paperless-ngx/paperless-ngx/workflows/ci/badge.svg" alt="词" style="max-width: 100%;"></a>
+<a href="https://crowdin.com/project/paperless-ngx" rel="nofollow"><img src="https://camo.githubusercontent.com/c8115013a6331e3bdcc954139643a81afd736ccbe708b19eb9c00beffe816114/68747470733a2f2f6261646765732e63726f7764696e2e6e65742f70617065726c6573732d6e67782f6c6f63616c697a65642e737667" alt="克罗丁" data-canonical-src="https://badges.crowdin.net/paperless-ngx/localized.svg" style="max-width: 100%;"></a>
+<a href="https://docs.paperless-ngx.com" rel="nofollow"><img src="https://camo.githubusercontent.com/6cd6f0fb0b60a6b45aea9d8e66ffaae7db3478144fcd95c0901d34cf16d23d6e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6465706c6f796d656e74732f70617065726c6573732d6e67782f70617065726c6573732d6e67782f6769746875622d70616765733f6c6162656c3d646f6373" alt="文件状态" data-canonical-src="https://img.shields.io/github/deployments/paperless-ngx/paperless-ngx/github-pages?label=docs" style="max-width: 100%;"></a>
+<a href="https://codecov.io/gh/paperless-ngx/paperless-ngx" rel="nofollow"><img src="https://camo.githubusercontent.com/712e485f847016f6dc244c47ebbca3f80f2d7d38e3545d975c3386c94929daba/68747470733a2f2f636f6465636f762e696f2f67682f70617065726c6573732d6e67782f70617065726c6573732d6e67782f6272616e63682f6d61696e2f67726170682f62616467652e7376673f746f6b656e3d564b364f55504a335459" alt="代码科夫" data-canonical-src="https://codecov.io/gh/paperless-ngx/paperless-ngx/branch/main/graph/badge.svg?token=VK6OUPJ3TY" style="max-width: 100%;"></a>
+<a href="https://matrix.to/#/%23paperlessngx%3Amatrix.org" rel="nofollow"><img src="https://camo.githubusercontent.com/3ce510126fc783dab8f4e05561bb4f6f393605b81940a2b8f1ee7a896d2513a9/68747470733a2f2f6d61747269782e746f2f696d672f6d61747269782d62616467652e737667" alt="在矩阵上聊天" data-canonical-src="https://matrix.to/img/matrix-badge.svg" style="max-width: 100%;"></a></p>
+<p align="center" dir="auto">
+  <themed-picture data-catalyst-inline="true" data-catalyst=""><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/paperless-ngx/paperless-ngx/raw/main/resources/logo/web/png/White%20logo%20-%20no%20background.png" width="50%">
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/paperless-ngx/paperless-ngx/raw/main/resources/logo/web/png/Black%20logo%20-%20no%20background.png" width="50%">
-    <img src="https://github.com/paperless-ngx/paperless-ngx/raw/main/resources/logo/web/png/Black%20logo%20-%20no%20background.png" width="50%">
-  </picture>
+    <img src="https://github.com/paperless-ngx/paperless-ngx/raw/main/resources/logo/web/png/Black%20logo%20-%20no%20background.png" width="50%" style="visibility:visible;max-width:100%;">
+  </picture></themed-picture>
 </p>
 
-<!-- omit in toc -->
-
-# Paperless-ngx
-
-Paperless-ngx is a document management system that transforms your physical documents into a searchable online archive so you can keep, well, _less paper_.
-
-Paperless-ngx is the official successor to the original [Paperless](https://github.com/the-paperless-project/paperless) & [Paperless-ng](https://github.com/jonaswinkler/paperless-ng) projects and is designed to distribute the responsibility of advancing and supporting the project among a team of people. [Consider joining us!](#community-support)
-
-- [Features](#features)
-- [Getting started](#getting-started)
-- [Contributing](#contributing)
-  - [Community Support](#community-support)
-  - [Translation](#translation)
-  - [Feature Requests](#feature-requests)
-  - [Bugs](#bugs)
-- [Affiliated Projects](#affiliated-projects)
-- [Important Note](#important-note)
-
-# Features
-
-<picture>
+<h1 tabindex="-1" dir="auto"><a id="user-content-paperless-ngx" class="anchor" aria-hidden="true" tabindex="-1" href="#paperless-ngx"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无纸化-ngx</font></font></h1>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paperless-ngx 是一个文档管理系统，可将您的物理文档转换为可搜索的在线档案，这样您就可以</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">减少纸张的</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paperless-ngx 是原始</font></font><a href="https://github.com/the-paperless-project/paperless"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paperless</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://github.com/jonaswinkler/paperless-ng"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paperless-ng</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目的正式继承者，旨在将推进和支持该项目的责任分配给一组人员。</font></font><a href="#community-support"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">考虑加入我们！</font></font></a></p>
+<ul dir="auto">
+<li><a href="#features"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></a></li>
+<li><a href="#getting-started"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></a></li>
+<li><a href="#contributing"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></a>
+<ul dir="auto">
+<li><a href="#community-support"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区支持</font></font></a></li>
+<li><a href="#translation"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">翻译</font></font></a></li>
+<li><a href="#feature-requests"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能请求</font></font></a></li>
+<li><a href="#bugs"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">虫子</font></font></a></li>
+</ul>
+</li>
+<li><a href="#affiliated-projects"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">附属项目</font></font></a></li>
+<li><a href="#important-note"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重要的提示</font></font></a></li>
+</ul>
+<h1 tabindex="-1" dir="auto"><a id="user-content-features" class="anchor" aria-hidden="true" tabindex="-1" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></h1>
+<themed-picture data-catalyst-inline="true" data-catalyst=""><picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/docs/assets/screenshots/documents-smallcards-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/docs/assets/screenshots/documents-smallcards.png">
-  <img src="https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/docs/assets/screenshots/documents-smallcards.png">
-</picture>
+  <img src="https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/docs/assets/screenshots/documents-smallcards.png" style="visibility:visible;max-width:100%;">
+</picture></themed-picture>
+<p dir="auto"><font style="vertical-align: inherit;"><a href="https://docs.paperless-ngx.com/" rel="nofollow"><font style="vertical-align: inherit;">文档</font></a><font style="vertical-align: inherit;">中提供了完整的</font></font><a href="https://docs.paperless-ngx.com/#features" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">列表</font><font style="vertical-align: inherit;">和</font></font><a href="https://docs.paperless-ngx.com/#screenshots" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">屏幕截图</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="https://docs.paperless-ngx.com/" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></p>
+<h1 tabindex="-1" dir="auto"><a id="user-content-getting-started" class="anchor" aria-hidden="true" tabindex="-1" href="#getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></h1>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部署无纸化最简单的方法是</font></font><code>docker compose</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="https://github.com/paperless-ngx/paperless-ngx/tree/main/docker/compose"><code>/docker/compose</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中的文件</font><font style="vertical-align: inherit;">配置为从 GitHub Packages 中提取映像。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想立即开始，可以</font></font><code>docker compose</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用我们的安装脚本配置环境：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>bash -c <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>curl -L https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/install-paperless-ngx.sh<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="bash -c &quot;$(curl -L https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/install-paperless-ngx.sh)&quot;" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者，您可以自行安装依赖项并设置 apache 和数据库服务器。</font><font style="vertical-align: inherit;">该</font></font><a href="https://docs.paperless-ngx.com/setup/#installation" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供了有关如何执行此操作的分步指南。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从 Paperless-ng 迁移非常简单，只需放入新的 docker 镜像即可！</font><font style="vertical-align: inherit;">有关更多详细信息，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="https://docs.paperless-ngx.com/setup/#migrating-to-paperless-ngx" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关迁移的文档。</font></font></a><font style="vertical-align: inherit;"></font></p>
 
-A full list of [features](https://docs.paperless-ngx.com/#features) and [screenshots](https://docs.paperless-ngx.com/#screenshots) are available in the [documentation](https://docs.paperless-ngx.com/).
-
-# Getting started
-
-The easiest way to deploy paperless is `docker compose`. The files in the [`/docker/compose` directory](https://github.com/paperless-ngx/paperless-ngx/tree/main/docker/compose) are configured to pull the image from GitHub Packages.
-
-If you'd like to jump right in, you can configure a `docker compose` environment with our install script:
-
-```bash
-bash -c "$(curl -L https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/install-paperless-ngx.sh)"
-```
-
-Alternatively, you can install the dependencies and setup apache and a database server yourself. The [documentation](https://docs.paperless-ngx.com/setup/#installation) has a step by step guide on how to do it.
-
-Migrating from Paperless-ng is easy, just drop in the new docker image! See the [documentation on migrating](https://docs.paperless-ngx.com/setup/#migrating-to-paperless-ngx) for more details.
-
-<!-- omit in toc -->
-
-### Documentation
-
-The documentation for Paperless-ngx is available at [https://docs.paperless-ngx.com](https://docs.paperless-ngx.com/).
-
-# Contributing
-
-If you feel like contributing to the project, please do! Bug fixes, enhancements, visual fixes etc. are always welcome. If you want to implement something big: Please start a discussion about that! The [documentation](https://docs.paperless-ngx.com/development/) has some basic information on how to get started.
-
-## Community Support
-
-People interested in continuing the work on paperless-ngx are encouraged to reach out here on github and in the [Matrix Room](https://matrix.to/#/#paperless:matrix.org). If you would like to contribute to the project on an ongoing basis there are multiple [teams](https://github.com/orgs/paperless-ngx/people) (frontend, ci/cd, etc) that could use your help so please reach out!
-
-## Translation
-
-Paperless-ngx is available in many languages that are coordinated on Crowdin. If you want to help out by translating paperless-ngx into your language, please head over to https://crwd.in/paperless-ngx, and thank you! More details can be found in [CONTRIBUTING.md](https://github.com/paperless-ngx/paperless-ngx/blob/main/CONTRIBUTING.md#translating-paperless-ngx).
-
-## Feature Requests
-
-Feature requests can be submitted via [GitHub Discussions](https://github.com/paperless-ngx/paperless-ngx/discussions/categories/feature-requests), you can search for existing ideas, add your own and vote for the ones you care about.
-
-## Bugs
-
-For bugs please [open an issue](https://github.com/paperless-ngx/paperless-ngx/issues) or [start a discussion](https://github.com/paperless-ngx/paperless-ngx/discussions) if you have questions.
-
-# Affiliated Projects
-
-Please see [the wiki](https://github.com/paperless-ngx/paperless-ngx/wiki/Affiliated-Projects) for a user-maintained list of affiliated projects and software that is compatible with Paperless-ngx.
-
-# Important Note
-
-> Document scanners are typically used to scan sensitive documents like your social insurance number, tax records, invoices, etc. **Paperless-ngx should never be run on an untrusted host** because information is stored in clear text without encryption. No guarantees are made regarding security (but we do try!) and you use the app at your own risk.
-> **The safest way to run Paperless-ngx is on a local server in your own home with backups in place**.
+<h3 tabindex="-1" dir="auto"><a id="user-content-documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paperless-ngx 的文档可在</font></font><a href="https://docs.paperless-ngx.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://docs.paperless-ngx.com</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上找到。</font></font></p>
+<h1 tabindex="-1" dir="auto"><a id="user-content-contributing" class="anchor" aria-hidden="true" tabindex="-1" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h1>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想为该项目做出贡献，请这样做！</font><font style="vertical-align: inherit;">错误修复、增强、视觉修复等始终受到欢迎。</font><font style="vertical-align: inherit;">如果您想实现一些大目标：请开始对此进行讨论！</font><font style="vertical-align: inherit;">该</font></font><a href="https://docs.paperless-ngx.com/development/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包含一些有关如何开始的基本信息。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-community-support" class="anchor" aria-hidden="true" tabindex="-1" href="#community-support"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区支持</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://matrix.to/#/#paperless:matrix.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们鼓励有兴趣继续致力于 paperless-ngx 工作的人们在 github 和Matrix Room</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上联系我们</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果您想持续为该项目做出贡献，有多个</font></font><a href="https://github.com/orgs/paperless-ngx/people"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">团队</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（前端、ci/cd 等）需要您的帮助，因此请联系我们！</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-translation" class="anchor" aria-hidden="true" tabindex="-1" href="#translation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">翻译</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paperless-ngx 提供多种语言版本，并在 Crowdin 上进行协调。</font><font style="vertical-align: inherit;">如果您想通过将 paperless-ngx 翻译成您的语言来提供帮助，请前往</font></font><a href="https://crwd.in/paperless-ngx" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://crwd.in/paperless-ngx</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，谢谢！</font></font><a href="https://github.com/paperless-ngx/paperless-ngx/blob/main/CONTRIBUTING.md#translating-paperless-ngx"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多详细信息可以在CONTRIBUTING.md</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中找到</font><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-feature-requests" class="anchor" aria-hidden="true" tabindex="-1" href="#feature-requests"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能请求</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://github.com/paperless-ngx/paperless-ngx/discussions/categories/feature-requests"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能请求可以通过GitHub Discussions</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提交</font><font style="vertical-align: inherit;">，您可以搜索现有想法，添加您自己的想法并为您关心的想法投票。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-bugs" class="anchor" aria-hidden="true" tabindex="-1" href="#bugs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">虫子</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于错误，请</font></font><a href="https://github.com/paperless-ngx/paperless-ngx/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打开问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="https://github.com/paperless-ngx/paperless-ngx/discussions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开始讨论</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（如有疑问）。</font></font></p>
+<h1 tabindex="-1" dir="auto"><a id="user-content-affiliated-projects" class="anchor" aria-hidden="true" tabindex="-1" href="#affiliated-projects"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">附属项目</font></font></h1>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="https://github.com/paperless-ngx/paperless-ngx/wiki/Affiliated-Projects"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wiki</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，了解用户维护的与 Paperless-ngx 兼容的附属项目和软件列表。</font></font></p>
+<h1 tabindex="-1" dir="auto"><a id="user-content-important-note" class="anchor" aria-hidden="true" tabindex="-1" href="#important-note"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重要的提示</font></font></h1>
+<blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档扫描仪通常用于扫描敏感文档，例如您的社会保险号、税务记录、发票等。Paperless </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-ngx 切勿在不受信任的主机上运行，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&ZeroWidthSpace;&ZeroWidthSpace;因为信息以明文形式存储，未经加密。</font><font style="vertical-align: inherit;">我们不保证安全性（但我们会尽力！），您使用该应用程序的风险由您自行承担。
+</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行 Paperless-ngx 最安全的方法是在您家中的本地服务器上进行备份</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+</blockquote>
+</article></div>
